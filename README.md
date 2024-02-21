@@ -1,6 +1,7 @@
-Basic npm template for future projects
+Basic npm set up for future projects
 
 Contains
-eslint
-prettier
-eslint-config-prettier
+html-webpack-plugins
+lodash
+css-loader, style loader
+eslint, prettier, eslint-config-prettier
