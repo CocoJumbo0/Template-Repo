@@ -17,7 +17,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Template',
+            title: 'Template (change me!)',
         }),
     ],
     module: {
@@ -29,7 +29,7 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
-            }
+            },
         ],
     },
     optimization: {
