@@ -1,9 +1,19 @@
-Webpack template for future projects
+# Basic Webpack Template
 
-Contains
+Personal use for future projects
 
--   html-webpack-plugins
--   lodash
--   css-loader, style loader
--   eslint, prettier, eslint-config-prettier
--   babel
+Install...
+
+```
+npm install --save-dev webpack webpack-cli
+npm install --save-dev html-webpack-plugin
+npm install --save-dev webpack-dev-server
+
+npm install --save-dev eslint
+npm install --save-dev prettier
+npm install --save-dev eslint-config-prettier
+
+npm install --save-dev babel-loader @babel/core @babel/preset-env
+
+npm install --save-dev style-loader css-loader
+```
